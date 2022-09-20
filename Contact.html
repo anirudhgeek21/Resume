@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body >
+    <h1>My Contact Details</h1>
+
+    <ol type="1">
+      <li>Phone no:-1234567890</li>
+      <li>Instagram:-ani_rudh_2_1</li>
+      <li>My E-mail:-anirudhprajapati2466@gmail.com</li>
+    </ol>
+    <form action="mailto:anirudhprajapatiy2466yt@gmail.com" method="post" enctype="text/plain"><!--The form HTML element represents a document section containing interactive controls for submitting information.-->
+    <!--Action is used to specify what should the code do with the inputed data-->
+
+    <!--mailto action helps us to get the browser to open the mail platform and it makes a mail to the specified email--
+
+    <!--enctype==encoded type . This specifies the browser about the form in which the inputs in the form will be so that browser could understand the same
+    its similar to as the charset in utf-8 encoded type-->
+
+    <!--Action and method will discuss more in the javascript section-->
+    <!--method post means that the work will be done after we submit-->
+
+
+      <label>Name:</label><!--Label is the element we use to print the text that we want to be displayed .The name justifies itself-->
+
+      <input type="text" name="yourName" value="" required minlength="3" maxlength="40"><!--Input is the same as input as in all programming languages.There are various types of input as shown below-->
+
+      <!--required is specified for the limitations and what we want from the input-->
+      <!--See the mdn docs for all the other types of the input available for the input elements-->
+      <!--The form becomes more valuable and interactive with the help of javascript and othr languages-->
+
+      <br>
+      <label>Email:</label>
+      <input type="email" name="yourEmail" value="">
+      <!--name helps us to categorize and specify what this is or to make us remember what this is-->
+      <br>
+      <label for="">DOB:</label>
+      <input type="date" name="DateOfBirth" value="">
+      <br>
+      <label for="">Select your password:</label>
+      <input type="password" name="yourPassword" value="">
+      <!--atomaticaly makes the password as hidden ie in stars when we are typing-->
+      <br>
+      <label>What is your favorite colour ?</label>
+      <input type="color" name="YourColour" value="">
+      <br>
+      <label for="">On the scale rate our company value</label>
+      <br>
+      <label for="">1 2 3 4 5 6 7 8 9 10</label>
+      <br>
+      <input type="range" name="YourRating" value="">
+      <br>
+      <label for="">Do you accept our terms and conditions ?</label>
+      <input type="checkbox" name="" value="">
+      <br>
+      <label for="">Do you want to recieve promotional emails from us ?</label>
+      <input type="radio" name="" value="">
+
+
+      <br>
+      <label>Sugestions:</label>
+      <br>
+      <textarea name="yourtext" rows="8" cols="30"></textarea>
+      <!--This is a box where we can write anything in the text foorm this helps when we want the user to write soomething llong such as review-->
+
+      <br></br>
+
+      <input type="submit" name="">
+      <br>
+      <input type="submit" name="" value="Agree">
+
+    </form>
+    <hr size="3" noshade>
+
+
+
+
+  </body>
+</html>
